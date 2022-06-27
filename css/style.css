@@ -23,7 +23,7 @@
 
 #top-bottom-left-cont {
   position: absolute;
-  width: 45vw;
+  width: 52vw;
   height: 120vh;
   /* top: 50px; */
   bottom: 0;
@@ -46,6 +46,9 @@ nav {
 
 nav:nth-child(1) {
   padding-left: 10px;
+}
+nav ul li:nth-child(4) {
+  padding-right: 40px;
 }
 
 ul {
@@ -96,6 +99,7 @@ a {
 }
 #left-content p {
   padding-top: 5%;
+  margin-right: 5%;
   color: lightgray;
   opacity: 0.5;
   font-size: var(--small);
@@ -161,9 +165,9 @@ a {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 10px;
-  width: 33%;
+  width: 25%;
   height: 95%;
-  padding-top: 6%;
+  padding-top: 12%;
   background-color: white;
 }
 
@@ -184,7 +188,7 @@ a {
   width: 33%;
   position: relative;
 
-  padding-left: 10px;
+  /* padding-left: 10px; */
   top: 0;
   bottom: 0;
 }
@@ -231,4 +235,41 @@ a {
   color: white;
   background-color: black;
   border: 1px solid white;
+}
+
+/* Right side mai container  */
+
+#right-main-cont {
+  position: absolute;
+  right: 50px;
+  width: 30%;
+  background-color: orangered;
+  height: 100%;
+}
+
+#top-right-blk-img-button-cont {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+#top-right-blk-img-button-cont button {
+  position: absolute;
+  margin-top: 73%;
+  left: 71%;
+  width: 7vw;
+  height: 3vh;
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  outline: none;
+}
+
+#top-right-blk-img-button-cont button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#perfume-img-cont img {
+  height: 27vh;
 }
