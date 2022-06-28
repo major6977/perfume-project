@@ -13,7 +13,7 @@
 
 #main-container {
   position: relative;
-  width: 90vw;
+  width: 98vw;
   height: 130vh;
   background-color: #7b818a;
   margin: 10vh auto;
@@ -221,8 +221,8 @@ a {
 }
 
 #left-bottom-text-button-cont button {
-  margin-top: 30%;
-  margin-left: 35%;
+  margin-top: 20%;
+  margin-left: 50%;
   width: 7vw;
   height: 3vh;
   transition: 0.5s ease-in-out;
@@ -242,8 +242,8 @@ a {
 #right-main-cont {
   position: absolute;
   right: 50px;
-  width: 30%;
-  background-color: orangered;
+  width: 37%;
+  background-color: white;
   height: 100%;
 }
 
@@ -254,7 +254,7 @@ a {
 }
 #top-right-blk-img-button-cont button {
   position: absolute;
-  margin-top: 73%;
+  margin-top: 55%;
   left: 71%;
   width: 7vw;
   height: 3vh;
@@ -269,7 +269,75 @@ a {
   background-color: black;
   border: 1px solid white;
 }
+#middle-wht-cont {
+  display: flex;
+}
 
-#perfume-img-cont img {
-  height: 27vh;
+#perfume-img2-cont {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+}
+
+#perfume-img2-cont img {
+  width: 50%;
+  margin: 5vh 0 5vh 0;
+}
+
+#small-text-rightside-cont {
+  width: 50%;
+}
+#small-text-rightside-cont h2 {
+  font-size: var(--medium);
+  font-weight: lighter;
+  padding: 10px;
+}
+#small-text-rightside-cont h2 span {
+  font-weight: bold !important;
+}
+
+#small-text-rightside-cont h3 {
+  font-size: var(--small);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.reviews2-cont {
+  width: 95%;
+}
+
+.reviews2-cont p {
+  font-size: var(--small);
+  font-weight: lighter;
+  opacity: 0.5;
+  padding: 10px;
+  /* background-color: blanchedalmond; */
+  background-color: whitesmoke;
+  border-radius: 10%;
+  margin-bottom: 10%;
+  box-shadow: 5px 8px lightgray;
+}
+
+#right-main-cont > h2 {
+  text-align: center;
+  font-size: var(--large);
+  margin-bottom: 10%;
+  background-color: whitesmoke;
+  padding: 10px 10px;
+}
+
+#small5-perfume-img-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#small5-perfume-img-cont img {
+  height: 10vh;
+}
+
+#bottom-right-cont {
+  height: 20vh;
+  margin-top: 35px;
+  background-color: black;
 }
