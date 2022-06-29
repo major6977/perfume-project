@@ -337,7 +337,17 @@ a {
 }
 
 #bottom-right-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 20vh;
   margin-top: 35px;
   background-color: black;
+}
+
+#last-bottom-right-txt {
+  /* position: relative; */
+  height: 80%;
+  color: white;
+  padding-top: 5%;
 }
