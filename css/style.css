@@ -14,7 +14,7 @@
 #main-container {
   position: relative;
   width: 98vw;
-  height: 130vh;
+  height: 140vh;
   background-color: #7b818a;
   margin: 10vh auto;
   border-radius: 20px;
@@ -24,7 +24,7 @@
 #top-bottom-left-cont {
   position: absolute;
   width: 52vw;
-  height: 120vh;
+  height: 125vh;
   /* top: 50px; */
   bottom: 0;
   left: 40px;
@@ -341,7 +341,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 20vh;
-  margin-top: 35px;
+  margin-top: 23%;
   background-color: black;
 }
 
@@ -350,4 +350,13 @@ a {
   height: 80%;
   color: white;
   padding-top: 5%;
+}
+#last-bottom-right-txt h3 {
+  color: white;
+  padding-top: 5%;
+}
+
+#blink {
+  transition: 0.5s ease-in-out;
+  position: relative;
 }
