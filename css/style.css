@@ -9,6 +9,8 @@
   --medium: medium;
   --large: large;
   --h1: 3vw;
+  --hfonts: fantasy;
+  --pfonts: cursive;
 }
 
 #main-container {
@@ -25,7 +27,6 @@
   position: absolute;
   width: 52vw;
   height: 125vh;
-  /* top: 50px; */
   bottom: 0;
   left: 40px;
   background-color: white;
@@ -33,7 +34,6 @@
 
 #top-blk-left-cont {
   width: 100%;
-  /* height: 50%; */
   background-color: black;
 }
 
@@ -95,9 +95,11 @@ a {
   padding-top: 5%;
   color: lightgray;
   opacity: 0.5;
+  font-family: var(--hfonts);
   font-size: var(--small);
 }
 #left-content p {
+  font-family: cursive;
   padding-top: 5%;
   margin-right: 5%;
   color: lightgray;
@@ -154,9 +156,11 @@ a {
 
 #left-img-txt-cont h3 {
   font-weight: lighter;
+  font-family: var(--hfonts);
 }
 #left-img-txt-cont h3 span {
   font-weight: bold;
+  font-family: var(--hfonts);
 }
 
 #left-img-txt-cont {
@@ -181,22 +185,19 @@ a {
 
 #left-img-txt-cont h3 {
   margin-bottom: 50%;
+  font-family: var(--hfonts);
 }
 
 #left-bottom-lrg-img-cont {
   height: 95%;
   width: 33%;
   position: relative;
-
-  /* padding-left: 10px; */
   top: 0;
   bottom: 0;
 }
 #left-bottom-lrg-img-cont img {
-  /* margin-top: 67%; */
-  /* position: relative; */
+  
   position: absolute;
-  /* height: 80%; */
   width: 90%;
   bottom: 0;
 }
@@ -207,6 +208,7 @@ a {
 }
 
 #left-bottom-text-button-cont p:nth-child(1) {
+  font-family: var(--pfonts));
   color: black;
   margin-top: 75%;
   font-size: var(--small);
@@ -215,6 +217,7 @@ a {
 }
 #left-bottom-text-button-cont p:nth-child(2) {
   font-size: var(--small);
+  font-family: var(--pfonts);
   color: black;
   font-weight: lighter;
   opacity: 0.5;
@@ -236,8 +239,6 @@ a {
   background-color: black;
   border: 1px solid white;
 }
-
-/* Right side mai container  */
 
 #right-main-cont {
   position: absolute;
@@ -291,15 +292,18 @@ a {
 #small-text-rightside-cont h2 {
   font-size: var(--medium);
   font-weight: lighter;
+  font-family: var(--hfonts);
   padding: 10px;
 }
 #small-text-rightside-cont h2 span {
   font-weight: bold !important;
+  font-family: var(--hfonts);
 }
 
 #small-text-rightside-cont h3 {
   font-size: var(--small);
   font-weight: bold;
+  font-family: var(--hfonts);
   padding: 10px;
 }
 
@@ -310,6 +314,7 @@ a {
 .reviews2-cont p {
   font-size: var(--small);
   font-weight: lighter;
+  font-family: var(--pfonts);
   opacity: 0.5;
   padding: 10px;
   /* background-color: blanchedalmond; */
@@ -322,6 +327,7 @@ a {
 #right-main-cont > h2 {
   text-align: center;
   font-size: var(--large);
+  font-family: var(--hfonts);
   margin-bottom: 10%;
   background-color: whitesmoke;
   padding: 10px 10px;
@@ -339,14 +345,16 @@ a {
 #bottom-right-cont {
   display: flex;
   justify-content: center;
+  position: absolute;
   align-items: center;
+  width: 100%;
   height: 20vh;
   margin-top: 23%;
+  bottom: 0;
   background-color: black;
 }
 
 #last-bottom-right-txt {
-  /* position: relative; */
   height: 80%;
   color: white;
   padding-top: 5%;
@@ -354,9 +362,9 @@ a {
 #last-bottom-right-txt h3 {
   color: white;
   padding-top: 5%;
+  font-family: var(--hfonts);
 }
 
 #blink {
-  transition: 0.5s ease-in-out;
   position: relative;
 }
