@@ -12,6 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+    ></script>
   </head>
   <body>
     <section id="main-container" class="container">
@@ -36,13 +40,13 @@
           </nav>
           <div id="left-content-right-img-cont">
             <div id="left-content">
-              <h1>Oriental Lime</h1>
+              <h1 class="fade-up">Oriental Lime</h1>
               <h3>A Lucid Dream</h3>
               <p>
                 Be careful how you use it becuase you don't want the scent to
                 run people out of the room.
               </p>
-              <h2>$200.00</h2>
+              <h2 class="fade-up">$200.00</h2>
               <div id="two-small-img-cont">
                 <img src="/images/hai-karate-img2.jpeg" alt="" />
                 <img src="/images/hai-karate-img8.jpeg" alt="" />
@@ -85,7 +89,9 @@
             <img src="/images/hai-karate-sec2-img15.jpeg" alt="" />
           </div>
           <div id="small-text-rightside-cont">
-            <h2>What customer are saying <span>about us.</span></h2>
+            <h2 class="reviews2-cont">
+              What customer are saying <span>about us.</span>
+            </h2>
             <div class="reviews2-cont">
               <p>
                 We love the fresh minty scent of the aftershave. My husband
@@ -118,5 +124,6 @@
       </div>
     </section>
     <script src="/js/main.js"></script>
+    <script defer src="/js/animations.js"></script>
   </body>
 </html>
