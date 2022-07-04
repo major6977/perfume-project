@@ -16,6 +16,7 @@
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
     ></script>
+    <script defer src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
     <section id="main-container" class="container">
@@ -74,7 +75,11 @@
             <p>
               Dermatologically Tested/Clinically Tested No GMOS,Paraben free.
             </p>
-            <p>A moment of pleasure and brightness all to yourself</p>
+
+            <p class="left-box-shadow">
+              A moment of pleasure and brightness all to yourself
+            </p>
+
             <button>Buy Now</button>
           </div>
         </div>
@@ -108,11 +113,15 @@
         </div>
         <h2>View our selections</h2>
         <div id="small5-perfume-img-cont">
-          <img src="/images/hai-karate-img19.jpeg" alt="" />
-          <img src="/images/hai-karate-sec2-img15.jpeg" alt="" />
-          <img src="/images/hai-karate-img16.jpeg" alt="" />
-          <img src="/images/hai-karate-img17.jpeg" alt="" />
-          <img src="/images/hai-karate-img18.jpeg" alt="" />
+          <img id="small-img1" src="/images/hai-karate-img19.jpeg" alt="" />
+          <img
+            id="small-img2"
+            src="/images/hai-karate-sec2-img15.jpeg"
+            alt=""
+          />
+          <img id="small-img3" src="/images/hai-karate-img16.jpeg" alt="" />
+          <img id="small-img4" src="/images/hai-karate-img17.jpeg" alt="" />
+          <img id="small-img5" src="/images/hai-karate-img18.jpeg" alt="" />
         </div>
 
         <div id="bottom-right-cont">
@@ -125,5 +134,6 @@
     </section>
     <script src="/js/main.js"></script>
     <script defer src="/js/animations.js"></script>
+    <script defer src="/js/scroll.js"></script>
   </body>
 </html>

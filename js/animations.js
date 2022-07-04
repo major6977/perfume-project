@@ -10,7 +10,7 @@ gsap.from("#right-img", {
   duration: 1.5,
   opacity: 0,
   stagger: 2,
-  x: "50%",
+  x: "25%",
   ease: "ease-in",
   delay: 1.5,
 });
