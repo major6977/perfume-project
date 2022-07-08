@@ -6,6 +6,6 @@ setInterval(function () {
 
   blink.style.visibility =
     blink.style.visibility == "hidden" ? "visible" : "hidden";
-  blink.style.color = "red";
+  blink.style.color = "yellow";
   blink.style.fontSize = "20px";
 }, speed);
