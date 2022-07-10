@@ -152,7 +152,7 @@ a {
 #bottom-wht-left-cont {
   position: relative;
   display: flex;
-  /* height: 55vh; */
+  height: 54.5vh;
 }
 
 #left-img-txt-cont h3 {
@@ -190,11 +190,21 @@ a {
 }
 
 #left-bottom-lrg-img-cont {
-  height: 95%;
+  /* height: 95%;
   width: 33%;
   position: relative;
   top: 0;
-  bottom: 0;
+  bottom: 0; */
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 25%;
+  height: 95%;
+  padding-top: 12%;
+  background-color: white;
 }
 #left-bottom-lrg-img-cont img {
   position: absolute;
@@ -205,6 +215,7 @@ a {
 #left-bottom-text-button-cont {
   height: 95%;
   width: 33%;
+  padding-left: 5%;
 }
 
 #left-bottom-text-button-cont p:nth-child(1) {
@@ -386,10 +397,6 @@ a {
 }
 
 /* Scroll Animations */
-
-#small-img1 {
-  position: ;
-}
 
 /* Mobile Media Queries */
 
