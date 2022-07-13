@@ -335,7 +335,6 @@ a {
   font-family: var(--pfonts);
   opacity: 0.5;
   padding: 10px;
-  /* background-color: blanchedalmond; */
   background-color: whitesmoke;
   border-radius: 10%;
   margin-bottom: 10%;
@@ -394,9 +393,12 @@ a {
   /* opacity: 0; */
 }
 
-/* Scroll Animations */
-
 /* Mobile Media Queries */
+
+@media (max-width: 1024px) {
+  #main-container {
+    position: static;
+  }
 
 @media (max-width: 768px) {
   #main-container {
