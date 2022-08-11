@@ -9,3 +9,14 @@ setInterval(function () {
   blink.style.color = "yellow";
   blink.style.fontSize = "20px";
 }, speed);
+
+// Mobile Nav
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
